@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Aanuj</title>
+    <link rel="icon" href="Images/My favicon profile.png">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400&family=Montserrat:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+        body {
+    text-align: center;
+    font-family: 'Merriweather',serif;;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #F6F1F1;
+  }
+  
+  header, nav, main, aside, footer {
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right,#F6F1F1, #F6F1F1); /* Add your desired gradient for header */
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+    color: #146C94;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #AFD3E2;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:#133337;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #F6F1F1;
+  }
+  
+  /* Main Content */
+  main {
+    display: flex;
+  }
+  
+  .content-with-image {
+    flex: 2;
+  }
+  
+  img {
+    width: 30%;
+    margin-left: 20px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;  /* Adjust flex value as needed */
+    padding: 10px;
+  }
+  
+  a{
+    color: #76ABAE;
+  }
+  
+  h2{
+    color: #146C94;
+  }
+  
+  th{
+    color: #146C94;
+  }
+  
+  p{
+    text-align: justify;
+  }
+  
+  /* Footer */
+  footer {
+    background: linear-gradient(to right, #133337, #133337); /* Add your desired gradient for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Existing styles */
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column; /* Stack nav items vertically */
+    }
+  
+    main {
+      flex-direction: column; /* Stack main content and sidebar */
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  
+    img {
+      width: 90%; /* Adjust image width for smaller screens */
+      margin: 0 auto; /* Center-align the image */
+    }
+  
+    .column, aside.sidebar {
+      width: 100%; /* Allow each column to take the full width */
+      flex: none; /* Override any flex settings */
+    }
+  
+    header, nav, main, aside, footer {
+      padding: 10px; /* Reduce padding */
+    }
+    
+    h1, h2 {
+      font-size: 1.5em; /* Adjust heading sizes */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    nav ul {
+      padding: 0;
+    }
+  
+    nav a {
+      padding: 10px; /* Increase padding for easier touch */
+      display: block; /* Make links block to fill horizontal space */
+    }
+    
+    /* Further reduce font sizes for very small screens */
+    h1, h2 {
+      font-size: 1.2em;
+    }
+  }
+  
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+        
+    </style>
+</head>
+
+<body>
+    <header>
+      <h1>A programmer's Blog</h1>
+      </header>
+  
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  
+    <main>
+      <div class="container">
+          <div class="column left">
+              <section>
+                  <h2>Aanuj Ghimire</h2>
+                  <img src="Images/My favicon profile.png" alt="me" style="float: right;"> 
+                  <p>As a student living in Canada and studying computer programming at Lambton College, I find myself immersed in a world of endless possibilities and creative challenges. Delving into the intricacies of coding and software development, I am constantly fascinated by the innovative solutions and the limitless potential of technology to transform our lives. With each line of code, I uncover the power to build, innovate, and shape the digital landscape of tomorrow.
+
+                    Beyond the realms of programming, I am deeply passionate about the arts, finding inspiration in the works of renowned painters and the timeless beauty they bring to the world. The strokes of a brush on canvas, the interplay of colors, and the emotions conveyed through art resonate deeply with me, serving as a source of creativity and introspection in my journey as a student.
+                    
+                    Moreover, my fascination extends to the realm of science and discovery, where the boundless curiosity of scientists and their quest for understanding the mysteries of the universe captivate my imagination. From the intricacies of quantum mechanics to the wonders of space exploration, I find solace in the pursuit of knowledge and the unending quest for discovery.
+                    
+                    In essence, as a student of computer programming, I strive to blend the realms of technology, art, and science, seeking to create meaningful contributions that not only push the boundaries of innovation but also inspire others to explore the endless possibilities that lie at the intersection of creativity and technology.</p>
+                  </p>
+                </section>
+                
+          </div>
+              <aside>
+                  <h2>Music I Listen To</h2>
+                  <ul>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/HWjCStB6k4o?si=smHN0KQjg21dXQsM&amp;start=73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/0J2QdDbelmY?si=1JU36R-kGJ0AS9BK&amp;start=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/dlFA0Zq1k2A?si=MQb9DyQzO3TErKvj&amp;start=73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                  </ul>
+                </aside>
+        </div>      
+    </main>
+    <footer>
+      <h4>&copy; 2024 Aanuj Personal blog</h4>
+      </footer>
+  </body>
+  </html>
+
